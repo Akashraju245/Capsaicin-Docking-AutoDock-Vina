@@ -40,6 +40,8 @@ Contains ligand files used for docking
 
 docking_results/
 Contains docking output files
+<img src="https://img.shields.io/badge/Skill-Molecular%20Docking-blue" />
+<img src="https://img.shields.io/badge/Project-Capsaicin%20Docking-green" />
 
 parameters/
 Docking configuration parameters
