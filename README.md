@@ -1,16 +1,16 @@
 Capsaicin Molecular Docking using AutoDock Vina
 This project focuses on predicting potential protein targets of Capsaicin using SwissTargetPrediction and performing molecular docking analysis using AutoDock Vina.
 
-Project Overview
+## Project Overview
 Capsaicin is a bioactive compound known for its anti-inflammatory and pharmacological properties. In this study, molecular docking was performed to analyze the interaction between Capsaicin and the target protein.
 
-Tools Used
+## Tools Used
 - SwissTargetPrediction
 - AutoDock Vina
 - PyMOL
 - Protein Data Bank (PDB)
 
-Workflow
+## Workflow
 
 1. Ligand Preparation
  - Capsaicin structure obtained from PubChem
@@ -30,19 +30,19 @@ Workflow
 4. Visualization
  - Docked complex visualized in PyMOL
  - Binding interactions analyze
- - Project Structure
+ - Project Structre
 
-protein/
+protein:
 Contains prepared protein structure
 
-ligand/
+ligand:
 Contains ligand files used for docking
 
-docking_results/
+docking_results:
 Contains docking output files
 
-parameters/
+parameters:
 Docking configuration parameters
 
-Results
+## Results
 The docking results indicate potential binding interactions between Capsaicin and the selected protein target.
